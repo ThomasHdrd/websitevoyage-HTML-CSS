@@ -1,0 +1,284 @@
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    color: #2c2c2c;
+}
+
+h2{
+    color: #2c2c2c;
+    font-size: 55px;
+}
+
+h3{
+    font-size: 30px;
+    color: #2c2c2c;
+}
+
+h4{
+    font-size: 24px;
+    color: #2c2c2c;
+}
+
+p{
+    line-height: 20px; /*ecriture entre les lignes*/
+    color: #2c2c2c;
+    font-size: 16px;
+}
+
+.orange {
+    color: orange;
+}
+
+a{
+    text-decoration: none; /*enlever le soulignement*/
+    color: #2c2c2c;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto ; /*auto = ce centrer sur la page*/
+    padding: 0 10px;
+}
+
+ul {
+    list-style: none; /*enlever les puces*/
+}
+
+.clear{
+    clear: both;
+}
+
+small {
+    font-size: 13px;
+    color: #2c2c2c;
+    font-style: italic;
+}
+
+/* HEADER*/
+
+header {
+    height: 120px;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 55px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-transform: uppercase; /*texte en majuscule*/
+    font-weight: bold; /*police en gras*/
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+
+
+/*MAIN IMAGE*/ 
+
+#main-image
+{
+    height: 580px;
+    background: url('images/main.jpg') center;
+}
+
+#main-image h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+.button-1{
+    width: 120px;
+    height: 50px;
+    display: block;
+    background: orange;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px; /*hauteur de ligne*/
+    text-align: center;
+    border-radius: 3px;
+}
+
+.button-1:hover{
+    background: rgb(81, 176, 253);
+}
+
+/*STEPS*/
+
+#steps ul {
+    margin: 80px 0;
+}
+
+#steps ul li {
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#steps h4{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#steps p{
+    margin-bottom: 20px;
+}
+
+#step-1 {
+    background: url('images/steps-icon-1.png') no-repeat top center;
+}
+
+#step-2 {
+    background: url('images/steps-icon-2.png') no-repeat top center;
+}
+
+#step-3 {
+    background: url('images/steps-icon-3.png') no-repeat top center;
+}
+
+
+/*POSSIBILITIES*/
+
+#possibilities{
+    background-color: rgb(221, 221, 221);
+    padding: 60px 0px;
+}
+
+#possibilities article {
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+
+#possibilities article:first-child{
+    margin-right: 20px;
+}
+
+.overlay{
+    background: rgba(255, 255, 255, 0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+article h4 {
+    border-bottom: 1px solid #2c2c2c;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c2c2c;
+}
+
+#possibilities p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-2{
+    color: white;
+    background-color: orange;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+.button-2:hover{
+    background-color: rgb(81, 176, 253);
+}
+
+
+/*CONTACT*/
+#contact{
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h3 {
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 2px solid #02b8dd;
+    padding-bottom: 20px;
+}
+
+form {
+    margin: 60px 0 20px 0;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+.button-3{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border: none;
+    border-radius: 3px;
+}
+
+.button-3:hover{
+    background-color: #444;
+}
+
+/*FOOTER*/
+footer{
+    height: 260px;
+    background-color: #444;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    padding-top: 80px
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
